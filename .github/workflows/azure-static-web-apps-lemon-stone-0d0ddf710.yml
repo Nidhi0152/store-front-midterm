@@ -15,8 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     env:
-    VUE_APP_ORDERSERVICE: https://order-service.fake.net/
-    VUE_APP_PRODUCTSERVICE: https://product-service.fake.net/
+      VUE_APP_ORDER-SERVICE: https://order-service.fake.net/
+      VUE_APP_PRODUCT-SERVICE: https://product-service.fake.net/
+
     permissions:
        id-token: write
        contents: read
